@@ -6,5 +6,8 @@ target 'CaraLibro' do
   use_frameworks!
 
   # Pods for CaraLibro
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
 
 end

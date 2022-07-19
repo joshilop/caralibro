@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D00E4DB5419BAA574FFF9B1 /* Pods_CaraLibro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D9AE40F149BD359C2F13D5 /* Pods_CaraLibro.framework */; };
 		3587B6662886F6B000418343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587B6652886F6B000418343 /* AppDelegate.swift */; };
 		3587B6682886F6B000418343 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587B6672886F6B000418343 /* SceneDelegate.swift */; };
 		3587B66A2886F6B000418343 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587B6692886F6B000418343 /* ConversationsViewController.swift */; };
@@ -19,9 +20,13 @@
 		3587B68F2886F9C700418343 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587B68E2886F9C700418343 /* VideoPlayerViewController.swift */; };
 		3587B6922886F9E100418343 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587B6912886F9E100418343 /* NewConversationViewController.swift */; };
 		3587B6952886F9F600418343 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587B6942886F9F600418343 /* ProfileViewController.swift */; };
+		3587B69A2886FFD500418343 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587B6992886FFD500418343 /* Extensions.swift */; };
+		3587B6AE28871E5C00418343 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3587B6AD28871E5C00418343 /* GoogleService-Info.plist */; };
+		3587B6B128872F7800418343 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587B6B028872F7800418343 /* DatabaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FEF787A4C6670CDEC84B3B8 /* Pods-CaraLibro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaraLibro.debug.xcconfig"; path = "Target Support Files/Pods-CaraLibro/Pods-CaraLibro.debug.xcconfig"; sourceTree = "<group>"; };
 		3587B6622886F6B000418343 /* CaraLibro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaraLibro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3587B6652886F6B000418343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3587B6672886F6B000418343 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +41,11 @@
 		3587B68E2886F9C700418343 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		3587B6912886F9E100418343 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		3587B6942886F9F600418343 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3587B6992886FFD500418343 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3587B6AD28871E5C00418343 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3587B6B028872F7800418343 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		38D9AE40F149BD359C2F13D5 /* Pods_CaraLibro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaraLibro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		483D0FF6F16D0A08842DA8D4 /* Pods-CaraLibro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaraLibro.release.xcconfig"; path = "Target Support Files/Pods-CaraLibro/Pods-CaraLibro.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D00E4DB5419BAA574FFF9B1 /* Pods_CaraLibro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +65,8 @@
 			children = (
 				3587B6642886F6B000418343 /* CaraLibro */,
 				3587B6632886F6B000418343 /* Products */,
+				761C13E51B7B8936202F4570 /* Pods */,
+				DD569CF809EE6E5FAA17733B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +81,7 @@
 		3587B6642886F6B000418343 /* CaraLibro */ = {
 			isa = PBXGroup;
 			children = (
+				3587B6AD28871E5C00418343 /* GoogleService-Info.plist */,
 				3587B67F2886F84600418343 /* Resources */,
 				3587B67E2886F83700418343 /* ViewModels */,
 				3587B67D2886F83200418343 /* Models */,
@@ -82,8 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				3587B6692886F6B000418343 /* ConversationsViewController.swift */,
-				3587B6852886F98B00418343 /* LoginViewController.swift */,
-				3587B6882886F99B00418343 /* RegisterViewController.swift */,
+				3587B6972886FAC300418343 /* Login */,
 				3587B68B2886F9B600418343 /* PhotoViewerViewController.swift */,
 				3587B68E2886F9C700418343 /* VideoPlayerViewController.swift */,
 				3587B6912886F9E100418343 /* NewConversationViewController.swift */,
@@ -120,6 +133,8 @@
 			children = (
 				3587B6652886F6B000418343 /* AppDelegate.swift */,
 				3587B6672886F6B000418343 /* SceneDelegate.swift */,
+				3587B6992886FFD500418343 /* Extensions.swift */,
+				3587B6B028872F7800418343 /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -133,6 +148,32 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		3587B6972886FAC300418343 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3587B6852886F98B00418343 /* LoginViewController.swift */,
+				3587B6882886F99B00418343 /* RegisterViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		761C13E51B7B8936202F4570 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FEF787A4C6670CDEC84B3B8 /* Pods-CaraLibro.debug.xcconfig */,
+				483D0FF6F16D0A08842DA8D4 /* Pods-CaraLibro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD569CF809EE6E5FAA17733B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38D9AE40F149BD359C2F13D5 /* Pods_CaraLibro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3587B6762886F6BA00418343 /* Build configuration list for PBXNativeTarget "CaraLibro" */;
 			buildPhases = (
+				44DB22E2F17CB1CA80866A22 /* [CP] Check Pods Manifest.lock */,
 				3587B65E2886F6B000418343 /* Sources */,
 				3587B65F2886F6B000418343 /* Frameworks */,
 				3587B6602886F6B000418343 /* Resources */,
+				98E2C9684B00FE6B088ED133 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3587B6722886F6BA00418343 /* LaunchScreen.storyboard in Resources */,
+				3587B6AE28871E5C00418343 /* GoogleService-Info.plist in Resources */,
 				3587B66F2886F6BA00418343 /* Assets.xcassets in Resources */,
 				3587B66D2886F6B000418343 /* Main.storyboard in Resources */,
 			);
@@ -198,16 +242,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44DB22E2F17CB1CA80866A22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CaraLibro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98E2C9684B00FE6B088ED133 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CaraLibro/Pods-CaraLibro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CaraLibro/Pods-CaraLibro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CaraLibro/Pods-CaraLibro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3587B65E2886F6B000418343 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3587B6862886F98B00418343 /* LoginViewController.swift in Sources */,
+				3587B6B128872F7800418343 /* DatabaseManager.swift in Sources */,
 				3587B6892886F99B00418343 /* RegisterViewController.swift in Sources */,
 				3587B6922886F9E100418343 /* NewConversationViewController.swift in Sources */,
 				3587B66A2886F6B000418343 /* ConversationsViewController.swift in Sources */,
 				3587B68F2886F9C700418343 /* VideoPlayerViewController.swift in Sources */,
+				3587B69A2886FFD500418343 /* Extensions.swift in Sources */,
 				3587B6662886F6B000418343 /* AppDelegate.swift in Sources */,
 				3587B6952886F9F600418343 /* ProfileViewController.swift in Sources */,
 				3587B6682886F6B000418343 /* SceneDelegate.swift in Sources */,
@@ -355,6 +443,7 @@
 		};
 		3587B6772886F6BA00418343 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FEF787A4C6670CDEC84B3B8 /* Pods-CaraLibro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -374,6 +463,7 @@
 		};
 		3587B6782886F6BA00418343 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 483D0FF6F16D0A08842DA8D4 /* Pods-CaraLibro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

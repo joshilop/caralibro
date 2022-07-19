@@ -1,0 +1,6 @@
+framework module Pods_CaraLibro {
+  umbrella header "Pods-CaraLibro-umbrella.h"
+
+  export *
+  module * { export * }
+}
