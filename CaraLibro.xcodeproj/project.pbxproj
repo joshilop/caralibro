@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		3587B6662886F6B000418343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587B6652886F6B000418343 /* AppDelegate.swift */; };
 		3587B6682886F6B000418343 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587B6672886F6B000418343 /* SceneDelegate.swift */; };
-		3587B66A2886F6B000418343 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587B6692886F6B000418343 /* ViewController.swift */; };
+		3587B66A2886F6B000418343 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587B6692886F6B000418343 /* ConversationsViewController.swift */; };
 		3587B66D2886F6B000418343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3587B66B2886F6B000418343 /* Main.storyboard */; };
 		3587B66F2886F6BA00418343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3587B66E2886F6BA00418343 /* Assets.xcassets */; };
 		3587B6722886F6BA00418343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3587B6702886F6BA00418343 /* LaunchScreen.storyboard */; };
+		3587B6862886F98B00418343 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587B6852886F98B00418343 /* LoginViewController.swift */; };
+		3587B6892886F99B00418343 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587B6882886F99B00418343 /* RegisterViewController.swift */; };
+		3587B68C2886F9B600418343 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587B68B2886F9B600418343 /* PhotoViewerViewController.swift */; };
+		3587B68F2886F9C700418343 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587B68E2886F9C700418343 /* VideoPlayerViewController.swift */; };
+		3587B6922886F9E100418343 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587B6912886F9E100418343 /* NewConversationViewController.swift */; };
+		3587B6952886F9F600418343 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587B6942886F9F600418343 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3587B6622886F6B000418343 /* CaraLibro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaraLibro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3587B6652886F6B000418343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3587B6672886F6B000418343 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3587B6692886F6B000418343 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3587B6692886F6B000418343 /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 		3587B66C2886F6B000418343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3587B66E2886F6BA00418343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3587B6712886F6BA00418343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3587B6732886F6BA00418343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3587B6852886F98B00418343 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3587B6882886F99B00418343 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3587B68B2886F9B600418343 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		3587B68E2886F9C700418343 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		3587B6912886F9E100418343 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		3587B6942886F9F600418343 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,69 @@
 		3587B6642886F6B000418343 /* CaraLibro */ = {
 			isa = PBXGroup;
 			children = (
-				3587B6652886F6B000418343 /* AppDelegate.swift */,
-				3587B6672886F6B000418343 /* SceneDelegate.swift */,
-				3587B6692886F6B000418343 /* ViewController.swift */,
-				3587B66B2886F6B000418343 /* Main.storyboard */,
-				3587B66E2886F6BA00418343 /* Assets.xcassets */,
-				3587B6702886F6BA00418343 /* LaunchScreen.storyboard */,
+				3587B67F2886F84600418343 /* Resources */,
+				3587B67E2886F83700418343 /* ViewModels */,
+				3587B67D2886F83200418343 /* Models */,
+				3587B67C2886F82C00418343 /* Views */,
+				3587B67B2886F81800418343 /* Controllers */,
 				3587B6732886F6BA00418343 /* Info.plist */,
 			);
 			path = CaraLibro;
+			sourceTree = "<group>";
+		};
+		3587B67B2886F81800418343 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3587B6692886F6B000418343 /* ConversationsViewController.swift */,
+				3587B6852886F98B00418343 /* LoginViewController.swift */,
+				3587B6882886F99B00418343 /* RegisterViewController.swift */,
+				3587B68B2886F9B600418343 /* PhotoViewerViewController.swift */,
+				3587B68E2886F9C700418343 /* VideoPlayerViewController.swift */,
+				3587B6912886F9E100418343 /* NewConversationViewController.swift */,
+				3587B6942886F9F600418343 /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3587B67C2886F82C00418343 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3587B6802886F87200418343 /* Storyboards */,
+				3587B66E2886F6BA00418343 /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3587B67D2886F83200418343 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3587B67E2886F83700418343 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3587B67F2886F84600418343 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3587B6652886F6B000418343 /* AppDelegate.swift */,
+				3587B6672886F6B000418343 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3587B6802886F87200418343 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3587B66B2886F6B000418343 /* Main.storyboard */,
+				3587B6702886F6BA00418343 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +203,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3587B66A2886F6B000418343 /* ViewController.swift in Sources */,
+				3587B6862886F98B00418343 /* LoginViewController.swift in Sources */,
+				3587B6892886F99B00418343 /* RegisterViewController.swift in Sources */,
+				3587B6922886F9E100418343 /* NewConversationViewController.swift in Sources */,
+				3587B66A2886F6B000418343 /* ConversationsViewController.swift in Sources */,
+				3587B68F2886F9C700418343 /* VideoPlayerViewController.swift in Sources */,
 				3587B6662886F6B000418343 /* AppDelegate.swift in Sources */,
+				3587B6952886F9F600418343 /* ProfileViewController.swift in Sources */,
 				3587B6682886F6B000418343 /* SceneDelegate.swift in Sources */,
+				3587B68C2886F9B600418343 /* PhotoViewerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +360,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CaraLibro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +379,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CaraLibro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
